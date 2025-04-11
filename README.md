@@ -51,7 +51,7 @@ Trendyol API'sine veri göndermek için doğru API URL'sine ihtiyacınız olacak
 
 - **Nasıl Scripte Eklenir?**
   - https://api.tgoapis.com/integrator/review/meal/suppliers/RESTORANİD/stores/ŞUBEİD/reviews/filter
-  - Restoran id kısmını doldurup scripte ekleyebilirsiniz.
+  - Restoran ID ve Şube ID kısmını doldurup scripte ekleyebilirsiniz.
 
 ---
 
