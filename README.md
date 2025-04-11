@@ -1,0 +1,1 @@
+# TrendyolGO-ReplyReviewAIBot
