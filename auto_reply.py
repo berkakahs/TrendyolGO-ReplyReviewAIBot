@@ -183,4 +183,4 @@ if __name__ == "__main__":
         print("20 dakika bekleniyor...")
         time.sleep(1200)
         fetch_and_process()
-EOF readme kısmı basıl olsun
+EOF
