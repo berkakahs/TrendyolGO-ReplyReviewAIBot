@@ -63,3 +63,26 @@ Aşağıdaki komutlarla gerekli Python kütüphanelerini yükleyebilirsiniz:
 
 ```bash
 pip install requests base64 json time threading flask prettytable
+```
+
+### Scripti Çalıştırın
+Scripti çalıştırmadan önce, gerekli tüm ayarları yapmış olduğunuzdan emin olun. Ardından aşağıdaki komut ile scripti çalıştırabilirsiniz:
+
+```bash
+python auto_reply.py
+```
+
+### Scriptin Çalışma Prensibi
+	Yorumları Çekme: Script, Trendyol API’sinden yorumları çeker.
+	Yanıt Üretme: Google Gemini API’si aracılığıyla yorumlar için uygun cevaplar oluşturulur.
+	Telegram Onayı: Telegram botu üzerinden bu yorumlar size iletilir. Her yorum için “onay ver” veya “görmezden gel” seçenekleri sunulur.
+	Yanıt Gönderme: Onay verdiğiniz yorumlar Trendyol API’sine gönderilir ve yanıt verilir.
+
+Script her 20 dakikada bir Trendyol API’sini kontrol eder ve yeni yorumları inceler. Yorumlar için uygun yanıtlar oluşturur ve Telegram botu üzerinden size iletir.
+
+### Dikkat Edilmesi Gerekenler
+ API Anahtarları: Scriptin düzgün çalışabilmesi için doğru API anahtarlarını ve bilgileri girdiğinizden emin olun.
+	Kütüphane Yüklemeleri: Python kütüphanelerinin doğru şekilde yüklendiğinden emin olun.
+	Zamanlama: Script her 20 dakikada bir yorumları kontrol eder. Eğer daha sık aralıklarla çalışmasını istiyorsanız, time.sleep(1200) değerini değiştirebilirsiniz.
+
+ - Başka sorularınız olursa, lütfen iletişime geçin. @berkakahs
