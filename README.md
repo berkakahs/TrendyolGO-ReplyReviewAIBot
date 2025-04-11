@@ -50,7 +50,7 @@ Yorumları işlemek ve cevaplar oluşturmak için Google Gemini API'sini kullanm
 Trendyol API'sine veri göndermek için doğru API URL'sine ihtiyacınız olacak. Bu URL, ürün ve yorumlarla etkileşime geçmek için kullanılır.
 
 - **Nasıl Scripte Eklenir?**
-  - https://api.tgoapis.com/integrator/review/meal/suppliers/RESTORANİD/stores/288838/reviews/filter
+  - https://api.tgoapis.com/integrator/review/meal/suppliers/RESTORANİD/stores/ŞUBEİD/reviews/filter
   - Restoran id kısmını doldurup scripte ekleyebilirsiniz.
 
 ---
